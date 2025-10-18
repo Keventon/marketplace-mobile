@@ -15,8 +15,8 @@ export function userRegisterViewModel() {
   } = useForm<RegisterFormData>({
     resolver: yupResolver(registerSchema),
     defaultValues: {
-      name: "teste 1",
-      email: "teste@gmail.com",
+      name: "Keverton",
+      email: "keverton@gmail.com",
       password: "crflamengo",
       confirmPassword: "crflamengo",
       phone: "91984828219",
